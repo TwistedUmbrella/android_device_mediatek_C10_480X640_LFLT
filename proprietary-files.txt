@@ -1,5 +1,6 @@
 bin/pppd_dt
 
+lib/egl/libGLES_android.so
 lib/liba3m.so
 lib/libfs_mgr.so
 lib/libja3m.so
@@ -93,9 +94,46 @@ vendor/firmware/ROMv2_lm_patch_1_1_hdr.bin
 vendor/firmware/WIFI_RAM_CODE_6755
 vendor/firmware/WMT_SOC.cfg
 
+# Added (testing)
+lib/libdrm.so
+lib/libxml2.so
+vendor/bin/dm_agent_binder
+vendor/bin/vtservice
+vendor/bin/MPED
+vendor/bin/emdlogger1
+vendor/bin/mtkfusionrild
+vendor/etc/aurisys_config.xml
+vendor/lib/libwidevinehdcpinfo.so
+vendor/lib/libfpspolicy.so
+vendor/lib/libglslcompiler.so
+vendor/lib/libusc.so
+vendor/lib/libsrv_um.so
+vendor/lib/libIMGegl.so
+vendor/lib/libpvrANDROID_WSEGL.so
+vendor/lib/libmtkcam_metadata.so
+vendor/lib/libmtkcam_fwkutils.so
+vendor/lib/libmtkcam_modulehelper.so
+vendor/lib/libmtkcam_stdutils.so
+vendor/lib/lib3a.log.so
+vendor/lib/libSonyIMX230PdafLibrary.so
+vendor/lib/libSonyIMX230PdafLibraryWrapper.so
+vendor/lib/libSonyIMX338PdafLibrary.so
+vendor/lib/libSonyIMX338PdafLibraryWrapper.so
+vendor/lib/libSonyIMX386PdafLibrary.so
+vendor/lib/libSonyIMX386PdafLibraryWrapper.so
+vendor/lib/libaudiocomponentenginec.so
+vendor/lib/libfgauge_gm30.so
+vendor/lib/libmtk_vt_service.so
+vendor/lib/DR.so
+vendor/lib/librilutilsmtk.so
+vendor/lib/librilfusion.so
+# End added
+
 vendor/lib/drm/libdrmmtkplugin.so
 vendor/lib/egl/egl.cfg
-#vendor/lib/egl/libGLES_mali.so
+vendor/lib/egl/libEGL_mtk.so
+vendor/lib/egl/libGLESv1_CM_mtk.so
+vendor/lib/egl/libGLESv2_mtk.so
 vendor/lib/hw/audio.primary.mt6739.so
 vendor/lib/hw/camera.mt6739.so
 vendor/lib/hw/gps.mt6739.so

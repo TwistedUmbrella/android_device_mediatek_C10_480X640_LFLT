@@ -61,4 +61,4 @@ simphonebooktedongle        u:object_r:radio_service:s0
 ismstedongle                u:object_r:radio_service:s0
 tedongleservice             u:object_r:radio_service:s0
 
-
+FpsPolicyService            u:object_r:fpspolicy-server_service:s0

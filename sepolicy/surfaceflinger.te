@@ -130,3 +130,7 @@ binder_call(surfaceflinger, ipod)
 
 allow surfaceflinger proc_ged:file {open read write ioctl getattr};
 
+# FpsPolicyServer
+allow surfaceflinger fpspolicy-server_service:service_manager add;
+allow {domain -init -isolated_app} fpspolicy-server_service:service_manager find;
+allow surfaceflinger device:chr_file { read write open ioctl };
