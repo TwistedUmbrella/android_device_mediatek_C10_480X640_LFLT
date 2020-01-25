@@ -74,13 +74,6 @@ vendor/bin/wmt_concurrency
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 
-vendor/etc/audio_device.xml
-vendor/etc/audio_em.xml
-vendor/etc/custom.conf
-vendor/etc/mtklog-config.prop
-vendor/etc/mtk_omx_core.cfg
-vendor/etc/audio_param/AudioParamOptions.xml
-
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n__Default.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_FullLog.bin
 vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_meta.bin
@@ -124,9 +117,17 @@ vendor/lib/libSonyIMX386PdafLibraryWrapper.so
 vendor/lib/libaudiocomponentenginec.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libmtk_vt_service.so
-vendor/lib/DR.so
+vendor/lib/libDR.so
 vendor/lib/librilutilsmtk.so
 vendor/lib/librilfusion.so
+vendor/lib/mediadrm/libdrmclearkeyplugin.so
+vendor/lib/mediadrm/libmockdrmcryptoplugin.so
+vendor/lib/drm/libdrmctaplugin.so
+vendor/lib/libcam.hal3a.log.so
+vendor/lib/libimsma.so
+vendor/bin/pvrsrvctl
+vendor/lib/libPVROCL.so
+vendor/lib/libPVRScopeServices.so
 # End added
 
 vendor/lib/drm/libdrmmtkplugin.so
