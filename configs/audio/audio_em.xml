@@ -8,10 +8,6 @@
         <Category title="Input">
             <Option type="SetAudioCommand" cmd="0x6B" check="1" uncheck="0">Stream Input Dump</Option>
         </Category>
-        <Category title="USB">
-            <Option type="SetAudioCommand" cmd="0" check="1" uncheck="0">USB Output Dump</Option>
-            <Option type="SetAudioCommand" cmd="0" check="1" uncheck="0">USB Input Dump</Option>
-        </Category>
         <Category title="AudioMixer">
             <Option type="SetParameters" cmd="af.track.pcm" check="1" uncheck="0">AudioTrack Buffer Dump</Option>
             <Option type="SetParameters" cmd="af.mixer.pcm" check="1" uncheck="0">AudioMixer Buffer Dump</Option>
@@ -46,6 +42,7 @@
         <Option>ANC_CMD=0</Option>
         <Option>af.dumplog=1</Option>
         <Option>LowLatencyDebugEnable=1</Option>
+        <Option>DetectPulseEnable=1</Option>
     </SetParameters>
 
     <GetParameters>
@@ -54,4 +51,3 @@
         <Option>DUAL_MIC_GET_GAIN</Option>
     </GetParameters>
 </AudioParameter>
-
