@@ -128,6 +128,13 @@ vendor/lib/libimsma.so
 vendor/bin/pvrsrvctl
 vendor/lib/libPVROCL.so
 vendor/lib/libPVRScopeServices.so
+vendor/lib/libpq_cust_base.so
+vendor/lib/libvtmal.so
+vendor/lib/liboclcompiler.so
+vendor/lib/libufwriter.so
+vendor/lib/libimsma_rtp.so
+vendor/lib/libvt_avsync.so
+vendor/lib/libmtk-ril.so
 # End added
 
 vendor/lib/drm/libdrmmtkplugin.so
